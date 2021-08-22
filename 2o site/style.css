@@ -338,6 +338,7 @@ form label, form legend {
 		padding: 10px;
 	}
  }
+ /* =================================================================*/
  @media screen and (max-width: 360px) and (min-width: 320px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa, .video {
         width: auto;
