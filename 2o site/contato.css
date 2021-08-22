@@ -1,0 +1,68 @@
+main {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 100%;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px
+}
+
+.input_padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: 40%
+}
+
+#checkbox{
+    margin: 20px 0;
+}
+
+
+.enviar {background-image: linear-gradient(to right, #134E5E 0%, #71B280  51%, #134E5E  100%)}
+.enviar {
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s all;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border:none;
+   border-radius: 10px;
+   display: block;
+   width: 21%;
+   font-weight: bold;
+   font-size:17px;
+   cursor: pointer;
+ }
+
+ .enviar:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+   transform: scale(1.01); /*rotate(10deg)*/
+ }
+
+ table{
+     margin: 20px 0 40px;
+ }
+
+ thead{
+     background: grey;
+     color: white;
+     font-weight: bold;
+ }
+
+ td, th{
+     border: 1px solid #000000;
+     padding: 0.5em;
+ }
+

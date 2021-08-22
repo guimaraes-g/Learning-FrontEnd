@@ -1,0 +1,51 @@
+
+
+
+#missao {
+	font-size: 20px
+}
+
+
+.par strong {
+	font-style: italic;
+	font-weight: bold;
+}
+
+#elem {
+	color: rgb(172, 141, 95);
+}
+
+.itens {
+	font-style: italic;
+	font-size: 22px;
+	padding: 10px;
+	margin-left: 40%;
+	margin-right: 400px;
+}
+
+.beneficios {
+	background: rgb(198, 229, 241);
+	padding: 40px 0;
+	border: 4mm ridge rgba(192, 140, 9, 0.3);
+	margin-bottom: 50px;
+	
+}	
+
+.beneficios-listados {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	font-size: 26px;
+	padding-top: 20px;
+	margin-right: 35%;
+}
+
+.imagembeneficios {
+	width: 30%;
+	margin-top: 20px;	
+	margin-right: 20px;
+	border: 12mm ridge rgba(192, 140, 9, 0.3);
+}
+.copyright {
+	font-size: 18px;
+}
