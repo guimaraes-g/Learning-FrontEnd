@@ -4,13 +4,15 @@
 
 Primeira parte de anotações se centra em descrever comandos específicos de tags em HTML5 e CSS3.
 
-Convém-se em dividir os arquivos de HTML e CSS, o nome, "index.html" para a página principal do site, e "style.css" para o estilo.
+Convém-se em dividir os arquivos de HTML e CSS, o nome, "index.html" para a página principal do site, e "style.css" para o estilo. 
 
 ## Tags em HTML5
 
 **<!DOCTYPE html>** : tag inicial de todo arquivo html. Indica que está usando a versão 5 do HTML.
 
 **<html lang="pt-br">** : todo o corpo do código estará dentro dessa tag. ela informa como metadado para o navegador que a página está em português do Brasil.
+
+/* : indicação de comentário em várias linhas.
 
 **<head>** : tag que inicia a "cabeça" do código onde serão incluídas as informações necessárias de metadado para o navegador. Nada dentro desta tag será exibida no corpo da página em si (apenas o **<title>** que indicará o título da página para ficar no Frame), serve apenas para dar informações.
 
@@ -132,4 +134,6 @@ Convém-se em dividir os arquivos de HTML e CSS, o nome, "index.html" para a pá
 
 **vertica-align: ...;** : alinhamento em relação a um elemento de linha que esteja ao seu lado.
 
-**position:** "static, fixed, relative, absolute, sticky"; : definir a posição do elemento na tela. "static": posição de acordo com o fluxo normal do documento, mudanças de posição não são aceitas; "fixed": elemento fixo na página, independente do scroll;  "relative": o elemento é posicionado de acordo com o fluxo normal do documento, porém você poderá fazer alterações utilizando *top, right, bottom, left*; "absolute" o elemento é removido do fluxo normal do documento, e se mantém absoluto de acordo com os outros elementos; "sticky":  vem da ideia de adesivo, o elemento se move conforme a barra de rolagem desce, quando chegar na posição do elemento, ele fica fixo.
+position: "static, fixed, relative, absolute, sticky"; : definir a posição do elemento na tela. "static": posição de acordo com o fluxo normal do documento, mudanças de posição não são aceitas; "fixed": elemento fixo na página, independente do scroll;  "relative": o elemento é posicionado de acordo com o fluxo normal do documento, porém você poderá fazer alterações utilizando top, right, bottom, left; "absolute" o elemento é removido do fluxo normal do documento, e se mantém absoluto de acordo com os outros elementos; "sticky":  vem da ideia de adesivo, o elemento se move conforme a barra de rolagem desce, quando chegar na posição do elemento, ele fica fixo.
+
+/*
